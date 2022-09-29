@@ -1,3 +1,6 @@
+<!DOCTYPE html> 
+<html>
+
 <body style="background-color: rgb(53, 54, 58);">
     <iframe id="backgroundImage" src=""></iframe>
     <ntp-app></ntp-app>
@@ -503,3 +506,5 @@ paper-ripple {
   </template>
 </dom-module>
 </body>
+
+</html>

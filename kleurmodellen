@@ -1,6 +1,10 @@
 <html> 
 
-<h2> Dit zijn kleurmodellen </h2>
+<body>
+
+    <li><a href="index.html">Home</a></li>
+
+    <h2> Dit zijn kleurmodellen </h>
 
 
 
@@ -8,6 +12,8 @@
 
 
 
+
+</body>
 
 
 </html>

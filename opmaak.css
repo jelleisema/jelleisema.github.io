@@ -43,6 +43,7 @@
         .dropdown {
               float: left;
               overflow: hidden;
+              color: #004225;
             }
             
         .dropdown .dropbtn {

@@ -46,9 +46,9 @@
             }
             
         .dropdown .dropbtn {
-              font-size: 20px;  
-              border: purple;
-              outline: red;
+              font-size: 16px;  
+              border: none;
+              outline: none;
               color: white;
               padding: 14px 16px;
               background-color: inherit;
@@ -79,7 +79,7 @@
             }
             
           .dropdown-content a:hover {
-              background-color: #0a6d2b;
+              background-color: #ddd;
             }
             
           .dropdown:hover .dropdown-content {

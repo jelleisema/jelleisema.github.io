@@ -43,7 +43,6 @@
         .dropdown {
               float: left;
               overflow: hidden;
-              color: #004225;
             }
             
         .dropdown .dropbtn {
@@ -52,7 +51,7 @@
               outline: none;
               color: white;
               padding: 14px 16px;
-              background-color: inherit;
+              background-color: #004225;
               font-family: inherit;
               margin: 0;
             }

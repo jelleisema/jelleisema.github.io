@@ -46,14 +46,14 @@
             }
             
         .dropdown .dropbtn {
-              font-size: 16px;  
-              border: none;
-              outline: none;
+              font-size: 20px;  
+              border: purple;
+              outline: red;
               color: white;
               padding: 14px 16px;
               background-color: inherit;
               font-family: inherit;
-              margin: 4;
+              margin: 0;
             }
             
         .navbar a:hover, .dropdown:hover .dropbtn {

@@ -41,8 +41,7 @@ section
 {   background-color: #ffffff;
     color: #000000;
     text-align: left;
-    padding: 20px; 
-    width: 75%}
+    padding: 20px;  }
 
 footer 
 {   background-color: #333;
@@ -54,6 +53,7 @@ footer
 p
 {   
     Font-size: 25px;
+    width: 75%
 }
    
 

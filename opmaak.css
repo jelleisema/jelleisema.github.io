@@ -100,7 +100,7 @@ p
     }
     
     
-    
+    /*het dropdown menu als je muis erop bij de woorden*/  
     .dropdown-content  a {
             color: #333;
             text-decoration: none;
@@ -136,6 +136,7 @@ p
         min-width: 160px;
         box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
         border-radius: 6px;
+        padding: 0px 100px;
     }
 
     .dropdown-submenu:hover .submenu-content 

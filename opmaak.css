@@ -54,7 +54,8 @@ section
         background-color: #ffffff;
         color: #000000;
         text-align: left;
-        padding: 20px;  
+        padding: 20px;
+        clear: both;  
     }
 
 footer 

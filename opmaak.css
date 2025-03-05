@@ -1,22 +1,29 @@
 body 
-{   font-family: Arial, sans-serif;
+    {   
+    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 50px ;
-    padding: 50px ;         }
+    padding: 50px ;         
+    }
 
 header 
-{   background-color: #353535;
-    color: #fff;
-    text-align: center;
-    padding: 20px;   
-    font-size: 20px;
-    position: top; }
+    {   
+        background-color: #353535;
+        color: #fff;
+        text-align: center;
+        padding: 20px;   
+        font-size: 20px;
+        position: top; 
+    }
     
 
 h1 
-{    font-size: 36px;    }
+    {    
+        font-size: 36px;    
+    }
 
-.navbar {
+.navbar 
+    {
     background-color: #FFE4E1;
     padding: 10px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -24,50 +31,61 @@ h1
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;	}
+    z-index: 1000;	
+    }
 
 nav ul 
-{   list-style-type: none;
-    padding: 10;   }
+    {   
+        list-style-type: none;
+        padding: 10;   
+    }
 
 nav li 
-{   display: inline;
-    margin-right: 30px; 
-    padding: 50; }
+    {   
+        display: inline;
+        margin-right: 30px; 
+        padding: 50; 
+    }
     
 
 
 section 
-{   background-color: #ffffff;
-    color: #000000;
-    text-align: left;
-    padding: 20px;  }
+    {   
+        background-color: #ffffff;
+        color: #000000;
+        text-align: left;
+        padding: 20px;  
+    }
 
 footer 
-{   background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 5px; 
-    float: none;
-    font-size: 20px;	}
+    {   
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 5px; 
+        float: none;
+        font-size: 20px;	
+        clear: both;
+    }
 
 p
-{   
-    Font-size: 20px;
-    width: 75%
-}
+    {   
+        Font-size: 20px;
+        width: 75%
+    }
    
 
 /*Dropdown*/
 
 /* het woordje dropown zonder je muis erop*/
-    .dropdown {
-      float: left;
-      overflow: hidden;
-      display: block;
-      border-radius: 0px; 
-      font-family: 'Arial', sans-serif;
-      color: #000000;
+.dropdown 
+    {
+        float: left;
+        overflow: hidden;
+        display: block;
+        border-radius: 0px; 
+        font-family: 'Arial', sans-serif;
+        color: #000000;
     }
     
 /*zodra je op Dropdown zit*/

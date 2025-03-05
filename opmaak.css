@@ -1,9 +1,9 @@
 body 
     {   
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 50px ;
-    padding: 50px ;         
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 50px ;
+        padding: 50px ;         
     }
 
 header 
@@ -24,14 +24,14 @@ h1
 
 .navbar 
     {
-    background-color: #FFE4E1;
-    padding: 10px 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;	
+        background-color: #FFE4E1;
+        padding: 10px 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
     }
 
 nav ul 
@@ -77,7 +77,7 @@ p
 
 /*Dropdown*/
 
-/* het woordje dropown zonder je muis erop*/
+    /* het woordje dropown zonder je muis erop*/
 .dropdown 
     {
         float: left;
@@ -88,63 +88,67 @@ p
         color: #000000;
     }
     
-/*zodra je op Dropdown zit*/
-    .dropdown .dropbtn {
-      font-size: 22px;  
-      border: none;
-      outline: none;
-      color: #000000;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-      font-weight: 700;
+    /*zodra je op Dropdown zit*/
+.dropdown .dropbtn 
+    {
+        font-size: 22px;  
+        border: none;
+        outline: none;
+        color: #000000;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        font-weight: 700;
     }
     
     
-/*het dropdown menu als je muis erop zit*/  
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      box-shadow: 0px 8px 16px 10px rgba(0,0,0,0.2);
-      z-index: 1;
-      display: none;
-      border-radius: 5px;
-      top: 55px;
-      white-space: normal;
-      padding: 5px;
-      
+    /*het dropdown menu als je muis erop zit*/  
+.dropdown-content 
+    {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 10px rgba(0,0,0,0.2);
+        z-index: 1;
+        display: none;
+        border-radius: 5px;
+        top: 55px;
+        white-space: normal;
+        padding: 5px;  
     }
     
     
     /*het dropdown menu als je muis erop bij de woorden*/  
-    .dropdown-content  a {
-            color: #333;
-            text-decoration: none;
-            padding: 12px 16px;
-           display: block;
-           border-radius: 10px;
+.dropdown-content  a 
+    {
+        color: #333;
+        text-decoration: none;
+        padding: 12px 16px;
+        display: block;
+        border-radius: 10px;
         transition: background-color 0.3s;
-            text-align: left;
-            float: none;
+        text-align: left;
+        float: none;
     }
     
 
-    .dropdown-content a:hover {
-      background-color: #ddd;
+.dropdown-content a:hover 
+    {
+        background-color: #ddd;
     }
     
-    .dropdown:hover .dropdown-content {
-      display: block;
+.dropdown:hover .dropdown-content 
+    {
+        display: block;
     }
 
-    .dropdown-submenu 
+.dropdown-submenu 
     {
         position: relative;
     }
 
-    .dropdown-submenu .submenu-content 
+.dropdown-submenu .submenu-content 
     {
         display: none;
         position: absolute;
@@ -157,7 +161,7 @@ p
         padding: 0px 0px ;
     }
 
-    .dropdown-submenu:hover .submenu-content 
+.dropdown-submenu:hover .submenu-content 
     {
         display: block;
     }

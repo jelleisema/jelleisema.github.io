@@ -54,8 +54,12 @@ section
         background-color: #ffffff;
         color: #000000;
         text-align: left;
-        padding: 20px;
-        clear: both;  
+        padding: 20px;  
+    }
+
+.drijven
+    {
+        clear: both;
     }
 
 footer 

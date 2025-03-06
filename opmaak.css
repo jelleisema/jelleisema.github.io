@@ -79,6 +79,14 @@ p
     }
    
 
+/*Afbeeldingen*/
+.ios
+    {
+        float: right;
+        size: 150%;
+    }
+
+
 /*Dropdown*/
 
     /* het woordje dropown zonder je muis erop*/

@@ -55,9 +55,7 @@
 
     <section>
 
-        <h2>
-            De toepassingslaag
-        </h2>
+        <h2> De toepassingslaag </h2>
 
         <img  
         src="toepassingslaag.jpg" 
@@ -73,6 +71,7 @@
         </p>
 
         <br class="drijven">
+
         <h2> Voorbeelden van apps:</h2>
         <br> <p> Tinder </p>
         <br> <p> Whatsapp </p>
@@ -80,6 +79,35 @@
         <br> <p> Tiktok </p>
         <br> <p> Facebook </p>
         <br> <p> App Store </p>
+
+    <h2> Voorbeelden van apps: </h2>
+    <div class="container">
+        <script>
+            const apps = [
+                "WhatsApp", "Instagram", "Facebook", "Twitter", "TikTok", "Snapchat", "YouTube", "Spotify", "Netflix", "Google Maps",
+                "Gmail", "Outlook", "Zoom", "Teams", "Telegram", "Signal", "Amazon", "eBay", "AliExpress", "Bol.com",
+                "Pinterest", "Reddit", "LinkedIn", "Discord", "Tinder", "Bumble", "Grindr", "Happn", "Duolingo", "Google Translate",
+                "Wikipedia", "Uber", "Lyft", "NS", "9292", "PayPal", "Revolut", "Google Pay", "Apple Pay", "Adobe Photoshop",
+                "Canva", "VSCO", "Snapseed", "Trello", "Asana", "Notion", "Evernote", "OneNote", "Microsoft Word", "Excel",
+                "PowerPoint", "Google Docs", "Google Sheets", "Google Slides", "Dropbox", "Google Drive", "iCloud", "WeTransfer",
+                "Shazam", "SoundCloud", "Deezer", "Audible", "Kindle", "Goodreads", "Strava", "Nike Training Club", "MyFitnessPal",
+                "Google Fit", "Apple Health", "Calm", "Headspace", "Sleep Cycle", "Flo", "Clue", "Period Tracker", "Yuka",
+                "Fitbit", "Runkeeper", "Peloton", "Garmin Connect", "Chess.com", "Among Us", "Roblox", "Minecraft", "Fortnite",
+                "Call of Duty", "Clash Royale", "Clash of Clans", "Candy Crush", "Pokémon GO", "PUBG Mobile", "League of Legends",
+                "Twitch", "Steam", "Epic Games", "Xbox", "PlayStation", "Google Home", "Alexa", "Philips Hue", "Ring", "Nest"
+            ];
+
+            const container = document.querySelector('.container');
+            apps.forEach(app => {
+                container.innerHTML += `
+                    <div class="app">
+                        <img src="https://via.placeholder.com/50" alt="${app} icon">
+                        <p>${app}</p>
+                    </div>
+                `;
+            });
+        </script>
+    </div>
     </section>
 
     <footer>

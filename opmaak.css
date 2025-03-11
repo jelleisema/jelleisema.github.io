@@ -83,7 +83,6 @@ p
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 10px;
     max-width: 800px;
-    margin: left;
     padding: 10px;
 }
 

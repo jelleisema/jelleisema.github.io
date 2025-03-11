@@ -82,10 +82,10 @@ p
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 10px;
-    max-width: 800px;
+    max-width: 80px;
     margin: auto;
     padding: 10px;
-    float: left;
+    float: none;
 }
 
 .app {

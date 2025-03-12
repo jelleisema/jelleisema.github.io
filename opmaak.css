@@ -110,6 +110,12 @@ p
         size: 150%;
     }
 
+.moederbord-uitleg
+    {
+        float: right;
+        size: 25%;
+    }
+
 
 /*Dropdown*/
 
